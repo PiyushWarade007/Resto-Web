@@ -1,0 +1,290 @@
+body{
+    text-align:center;
+    background-color:#F1EFEF ;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #192a56;
+    font-size: 3rem;
+    font-weight: 600;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color:#192a56;
+
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #27ae60;
+}
+
+h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color:#192a56;
+    padding-bottom: 0.5rem;
+    padding-top:1rem;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+h4.copyright{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8f8f8f;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #8f8f8f;
+}
+a:hover{
+    color: #27ae60;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+                    /* navbar */
+
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    margin-bottom: 5px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.nav-img{
+   height: 35px;
+   width: 35px;
+   padding-left: 9% ;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding-left: 5px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.nav-link:hover{
+    color: #ffffff;
+}
+.nav-item:hover{
+    color:#ffffff;
+    background-color: #27ae60;
+    border-radius:1rem;
+}
+.navbar-nav{
+    padding-right: 10%;
+}
+
+
+                 /* carousel */
+
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+.carousel{
+    background-color: #fff;
+}
+.carousel-text{
+    padding:25% 0% 25% 20%;
+    text-align: left;
+}
+.btn1 {
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #192a56;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn1:hover {
+    background-color: #27ae60;
+    color:#ffffff;
+    text-decoration: none;
+  }
+
+.carousel-img1{
+    position:relative;
+    padding-top: 13%;
+    height: 80%;
+    width: 80%;
+}
+.carousel-img2{
+    position:relative;
+    padding-top: 13%;
+    height:80%;
+    width: 80%;
+} 
+.carousel-img3{
+    position:relative;
+    padding-top: 13%;
+    height:80%;
+    width: 80%;
+} 
+
+ /* Dishes Section  */
+
+ .dishes-header{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+ }
+
+ .container2{
+    padding: auto;
+ }
+
+ .card{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+ }
+ 
+
+ /* About Section */
+
+ #About{
+    background-color: #ffffff;
+    margin-top: 5% ;
+    padding: 0 10% 0 10%;
+    padding-bottom: 5%;
+ }
+ .about-header{
+    padding-top:4rem ;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+ }
+ .about-img{
+    position: relative;
+    width: 70%;
+    padding:auto;
+ }
+ .about-text{
+     text-align: left;
+     padding-top: 5%;
+     padding-left: 5%;
+ }
+ .about-icon{
+    padding-right: 3px;
+ }
+.btn2{
+    margin-top: 5px;
+}
+
+ /* Review Section */
+ #Review{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+ }
+ .review-header{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+ }
+ .review-img{
+    float: left;
+ }
+
+.review-icon{
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+}
+.review-star{
+    padding-right: 28%;
+}
+/* Contact container */
+#Contact{
+    background-color: #ffffff;
+}
+.contact-container1{
+    /* padding-top: 5%; */
+    padding:5% 10% 5% 15%;
+    text-align: left;
+
+}
+.contact-container2{
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 991px){
+    .navbar-nav{
+        padding: 0 20% 3% 20%;
+    }
+    .carousel-text{
+        padding:15% 10% 5% 10%;
+        text-align: left;
+    }
+    .carousel-img1{
+        position:relative;
+        height: 80%;
+        width: 80%;
+    }
+    .carousel-img2{
+        position:relative;
+        padding-top: 7%;
+        height:70%;
+        width: 70%;
+    } 
+    .carousel-img3{
+        position:relative;
+        padding-top: 10%;
+        padding-bottom: 20%;
+        height:100%;
+        width: 80%;
+    }    
+}
+@media (max-width: 443px){
+    .carousel-img1{
+        position:relative;
+        margin-bottom: 1%;
+        height: 80%;
+        width: 80%;
+    }
+    .carousel-img2{
+        position:relative;
+        padding-top: 15%;
+        margin-bottom: 8%;
+        height:70%;
+        width: 70%;
+    } 
+    .carousel-img3{
+        position:relative;
+        padding-top: 10%;
+        padding-bottom: 20%;
+        margin-bottom: 1%;
+        height:100%;
+        width: 80%;
+    } 
+}
